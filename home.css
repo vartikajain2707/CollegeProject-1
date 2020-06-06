@@ -113,3 +113,15 @@ body {
 .nav-link:hover {
   color: #007bff;
 }
+.line-chart {
+  width: 900px;
+  height: 500px;
+}
+
+@media (max-width: 420px) {
+  .line-chart {
+    width: 100%;
+    max-width: 420px;
+    height: 300px;
+  }
+}
